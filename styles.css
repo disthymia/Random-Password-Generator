@@ -1,0 +1,162 @@
+/* ELEMENT SELECTORS */
+/* --------------------------------------------------------- */
+body{
+    background-color: #1f2937;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:  auto;
+}
+button {
+    background: #10B981;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    margin: 60px 0 auto;
+    padding: 11px 17px;
+    border-radius: 6px;
+}
+h1 {
+    border: none;
+    font-size: 4rem;
+    /* font-size: 400px; */
+    line-height: 110%;
+    margin: 115px 10px auto auto;
+}
+hr {
+    border: none;
+    border-top: 1px solid #2F3E53;
+    background-color: #2F3E53;
+    margin: 40px auto;
+}
+
+/* ID SELECTORS */
+/* --------------------------------------------------------- */
+#pass-one, #pass-two {
+    background-color: #273549;
+    border: none;
+    border-radius: 6px;
+    color: #55F991;
+    font-size: 1.2rem;
+    margin: 60px 0 auto;
+    padding: 11px 17px;
+    border-radius: 6px;
+    /* font-size: 1.2rem;
+    margin: 0;
+    padding: .6rem 2.6rem; */
+}
+
+/* CLASS SELECTORS */
+/* --------------------------------------------------------- */
+.container {
+    width: 60%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.highlight {
+    color: #4ADF86;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.pass-container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* justify-content: space-evenly; */
+}
+.subheading {
+    border: none;
+    font-size: 1.66rem;
+    /* font-size: 20px; */
+    margin: 20px 0 0 0;
+}
+
+/* @MEDIA QUERIES */
+/* --------------------------------------------------------- */
+@media screen and (max-width: 1000px) and (min-width: 691px) {
+    button {
+        font-size: 1rem;
+        margin: 60px 0 auto;
+        padding: 11px 17px;
+        border-radius: 6px;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+
+    #pass-one, #pass-two {
+        font-size: 1rem;
+        margin: 0px 0 auto;
+        padding: 11px 17px;
+        border-radius: 6px;
+        /* font-size: 1.2rem;
+        margin: 0;
+        padding: .6rem 2.6rem; */
+    }
+
+    .subheading {
+        font-size: 1.25rem;
+    }
+}
+@media screen and (max-width: 690px) and (min-width: 561px) {
+    button {
+        font-size: 1rem;
+        margin: 60px 0 auto;
+        padding: 11px 17px;
+        border-radius: 6px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+
+    #pass-one, #pass-two {
+        font-size: 1rem;
+        padding: 11px 17px;
+        border-radius: 6px;
+        /* font-size: 1.2rem;
+        margin: 0;
+        padding: .6rem 2.6rem; */
+    }
+    #pass-one {
+        margin: 0 10px 0 0;
+    }
+    #pass-two {
+        margin: 0 0 0 10px;
+    }
+
+    .subheading {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 560px) {
+    button {
+        font-size: .9rem;
+        margin: 60px 0 auto;
+        padding: 11px 17px;
+        border-radius: 6px;
+    }
+    h1 {
+        font-size: 1.4rem;
+    }
+
+    #pass-one, #pass-two {
+        font-size: .9rem;
+        margin: 0 auto;
+        padding: 11px 17px;
+        border-radius: 6px;
+        /* font-size: 1.2rem;
+        margin: 0;
+        padding: .6rem 2.6rem; */
+    }
+    #pass-one {
+        margin-bottom: 15px;
+    }
+
+    .pass-container {
+        display: block;
+    }
+    .subheading {
+        font-size: 1rem;
+    }
+}
